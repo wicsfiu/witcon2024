@@ -1,0 +1,69 @@
+.footer {
+    position: relative; /* Add position relative to contain absolute-positioned social links */
+    width: 100%;
+    background-color: #1C0028;
+    color: #eee;
+    padding: 3rem 1rem;
+}
+
+.footer .container {
+    max-width: 1240px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer li {
+    padding: 1rem;
+}
+
+.footer li a {
+    color: #FF008C;
+}
+
+.footer li a:hover {
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+.bottom {
+    text-align: left;
+    padding-top: 3rem;
+}
+
+.email {
+    margin-bottom: 1rem;
+}
+
+.author {
+    color: #FF008C;
+}
+
+/* Social Links Styling */
+.social-links {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.social-link img {
+    width: 30px; /* Adjust the size of your social media icons */
+    height: 30px; /* Adjust the size of your social media icons */
+}

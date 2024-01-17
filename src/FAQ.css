@@ -1,0 +1,75 @@
+.faq {
+    width: 100%;
+    background-color: #1C0028;
+}
+
+.faq .container {
+    width: 1240px;
+    margin: 4rem auto;
+    padding: 4rem 0rem;
+}
+
+.faq h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.faq .container .content {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-gap: 20px;
+    margin: 4rem 0;
+}
+
+.faq .card {
+    border: 1px solid #6E88FF;
+    background-color: #6E88FF;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgb(0,0,0,.2);
+    padding: 1rem;
+}
+
+.faq img {
+    border-radius: 50px;
+    margin-top: -2rem;
+}
+
+
+.faq .card p {
+    color: #ffffff;;
+    font-size: 1.1rem;
+    margin: 12px;
+    
+}
+
+.faq .card span {
+    color: #6E88FF;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 940px) {
+    .faq .container {
+        width: 100%;
+    }
+
+    .faq .container .content {
+        grid-template-columns: 1fr;
+    }
+
+    .faq .card {
+        max-width: 100%;
+        margin: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+

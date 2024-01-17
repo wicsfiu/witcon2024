@@ -1,0 +1,97 @@
+.hero {
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url('./images/background.jpg') no-repeat center;
+    background-size: cover;
+    display: flex;
+}
+
+.hero .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    padding: 1rem;
+}
+
+
+.hero .content p:first-child {
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.hero .content p:nth-child(2) {
+    font-size: 90px;
+    font-weight: 800;
+}
+
+.hero .content p:nth-child(3) {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.hero .button {
+    margin: 1rem 0;
+    width: 300px;
+    border-radius: 40px;
+    background: #FDE1EF;
+    color: #333;
+}
+
+.hero .button:hover {
+    background-color: #FF0CAC;
+    border: 1px solid var(--secondary-dark);
+}
+
+.hero .image {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 70px;
+}
+
+.hero .image img {
+    max-width: 100%; /* Make the image responsive */
+    max-height: 100%;
+    width: 468px;
+    height: 468px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hero .image .button.schedule-button {
+    margin: 1rem;
+    width: 100px;
+    border-radius: 40px;
+    background: #FDE1EF;
+    color: #333;
+}
+
+.hero .image .schedule-button:hover {
+    background-color: #FF0CAC;
+    border: 1px solid var(--secondary-dark);
+}
+
+
+@media screen and (max-width: 940px) {
+    .hero .content p:nth-child(3) {
+        font-size: 2.6rem;
+    }
+
+    .hero .content p:nth-child(4) {
+        font-size: 1.6rem;
+    }
+}
+
+
+
+
+
+
+

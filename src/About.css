@@ -1,0 +1,74 @@
+.about {
+    background-color: #f8f8f8;
+    margin: auto;
+    padding: 8rem 1rem 0 1rem;
+    width: 100%;
+}
+
+.about .container {
+    width: 100%;
+    max-width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.about h2 {
+    font-size: 4rem;
+    justify-items: left;
+}
+
+/* Added styling for the images */
+.about .col-3 img,
+.about .col-2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Center images within columns */
+.about .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure the container has three divisions right beside each other */
+@media screen and (min-width: 600px) {
+    .about .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .about .container {
+        grid-template-columns: 1fr;
+    }
+
+    .about .container .col-3,
+    .about .container .col-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about .container {
+        width: 100%;
+    }
+
+    .about h2 {
+        font-size: 3rem;
+    }
+
+    /* Adjust styling for images on smaller screens */
+    .about .col-3 img,
+    .about .col-2 img {
+        border-radius: 0;
+    }
+}
+
+/* Additional media query for small screens to have the desired layout */
+@media screen and (max-width: 600px) {
+    .about .container .col-3,
+    .about .container .col-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
