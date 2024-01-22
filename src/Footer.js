@@ -1,10 +1,37 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Footer.css';
 import discord from './images/Discord.png';
 import instagram from './images/Instagram.png';
 import github from './images/GitHub.png';
+import { FaArrowUp } from 'react-icons/fa';
 
 const Footer = () => {
+    const [showButton, setShowButton] = useState(false);
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    };
+
+    const handleScroll = () => {
+        // Check if user has scrolled down 100 pixels (adjust as needed)
+        if (window.scrollY > 100) {
+            setShowButton(true);
+        } else {
+            setShowButton(false);
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <div className='footer'>
             {/* Social Media Circle Links */}
@@ -16,7 +43,7 @@ const Footer = () => {
                     <img src={instagram} alt='Instagram' />
                 </a>
                 <a href='https://github.com/wicsfiu' className='social-link'>
-                    <img src= {github} alt='GitHub' />
+                    <img src={github} alt='GitHub' />
                 </a>
             </div>
 
@@ -38,6 +65,13 @@ const Footer = () => {
                         <a href='#testimonials'>Testimonials</a>
                     </li>
                 </ul>
+                {/* Scroll-to-top button */}
+                {showButton && (
+                    <button className="scroll-to-top-button" onClick={scrollToTop}>
+                        Scroll Up
+                        <FaArrowUp />
+                    </button>
+                )}
                 <div className='bottom'>
                     <p className='email'>wics@fiu.edu</p>
                     <p className= 'author'>WITCON @ FIU 2024 |  made by Women in Tech</p>
@@ -48,3 +82,4 @@ const Footer = () => {
 }
 
 export default Footer;
+

@@ -1,3 +1,4 @@
+/* About.css */
 .about {
     background-color: #f8f8f8;
     margin: auto;
@@ -14,61 +15,65 @@
 }
 
 .about h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     justify-items: left;
+    font-family: 'Pointless', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* Added styling for the images */
-.about .col-3 img,
-.about .col-2 img {
+.about .col-1 {
+    width: 100%;
+}
+
+.about p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding: 5%;
+}
+
+/* Images styling with adjusted padding */
+.image-container {
+    display: grid;
+    grid-gap: 1rem;
+    padding-bottom: 5%; /* Adjust the value as needed */
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.square {
+    position: relative;
+}
+
+.square img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    display: block;
 }
 
-/* Center images within columns */
-.about .column {
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1C0028;
+    opacity: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #ffffff;
+    transition: opacity 0.3s ease-in-out;
 }
 
-/* Ensure the container has three divisions right beside each other */
-@media screen and (min-width: 600px) {
-    .about .container {
-        grid-template-columns: repeat(3, 1fr);
-    }
+.square:hover .overlay {
+    opacity: 0.9;
 }
 
-@media screen and (max-width: 940px) {
-    .about .container {
-        grid-template-columns: 1fr;
-    }
-
-    .about .container .col-3,
-    .about .container .col-2 {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .about .container {
-        width: 100%;
-    }
-
-    .about h2 {
-        font-size: 3rem;
-    }
-
-    /* Adjust styling for images on smaller screens */
-    .about .col-3 img,
-    .about .col-2 img {
-        border-radius: 0;
-    }
-}
-
-/* Additional media query for small screens to have the desired layout */
-@media screen and (max-width: 600px) {
-    .about .container .col-3,
-    .about .container .col-2 {
-        grid-template-columns: repeat(1, 1fr);
-    }
+.overlay-title {
+    font-size: 1.5rem;
 }

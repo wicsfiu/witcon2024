@@ -1,15 +1,17 @@
 .footer {
-    position: relative; /* Add position relative to contain absolute-positioned social links */
+    position: relative;
     width: 100%;
     background-color: #1C0028;
     color: #eee;
     padding: 3rem 1rem;
+    
 }
 
 .footer .container {
     max-width: 1240px;
     margin: auto;
     text-align: center;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 .footer ul {
@@ -23,11 +25,12 @@
 
 .footer li a {
     color: #FF008C;
+    text-decoration: none; /* Remove underline */
 }
 
 .footer li a:hover {
     padding-bottom: 12px;
-    border-bottom: 3px solid var(--secondary-color);
+    border-bottom: 3px solid #FF008C; /* Use the color directly */
 }
 
 .bottom {
@@ -64,6 +67,27 @@
 }
 
 .social-link img {
-    width: 30px; /* Adjust the size of your social media icons */
-    height: 30px; /* Adjust the size of your social media icons */
+    width: 30px;
+    height: 30px;
+}
+
+/* Scroll-to-top button styling */
+.scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #FF008C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-to-top-button:hover {
+    background-color: #ff0066; /* Darker color on hover */
 }

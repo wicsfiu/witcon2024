@@ -8,6 +8,7 @@
     transition: .3s ease-in;
     overflow: hidden;
     background-color: #1C0028;
+
 }
 
 .header .navbar {
@@ -22,6 +23,8 @@
 
 .header .nav-menu a {
     color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif
+
 }
 
 .header .navbar img {
@@ -87,6 +90,20 @@
     .header .navbar img {
         width: 200px;
     }
+    /* ... (existing styles) */
+
+}
+.nav-item .witcon23-button {
+    background-color: #6E88FF; /* Pink color */
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    .nav-item .witcon23-button:hover {
+    background-color: #879FFF; /* Darker pink color on hover */
 }
 
 

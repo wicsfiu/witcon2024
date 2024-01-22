@@ -1,11 +1,12 @@
 .faq {
     width: 100%;
     background-color: #1C0028;
+    
 }
 
 .faq .container {
     width: 1240px;
-    margin: 4rem auto;
+    margin: 0 auto;
     padding: 4rem 0rem;
 }
 
@@ -13,11 +14,14 @@
     font-size: 3rem;
     text-align: center;
     color: #ffffff;
+    font-family: 'Pointless', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
+
 
 .faq .container .content {
     display: grid;
-    grid-template-columns: repeat(2,2fr);
+    grid-template-columns: repeat(3,1fr);
     grid-gap: 20px;
     margin: 4rem 0;
 }

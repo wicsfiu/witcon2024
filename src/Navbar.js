@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import logo from './images/wit.png';
+import { Link } from 'react-scroll';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -9,18 +10,6 @@ const Navbar = () => {
     const handleClick = () => setClick(!click);
 
     const closeMenu = () => setClick(false);
-
-    const handleSmoothScroll = (event, targetId) => {
-        event.preventDefault();
-        const targetElement = document.getElementById(targetId);
-        if (targetElement) {
-            window.scrollTo({
-                top: targetElement.offsetTop - 60, // Adjust offset as needed
-                behavior: 'smooth',
-            });
-            closeMenu();
-        }
-    };
 
     return (
         <div className='header'>
@@ -37,31 +26,33 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <a href='/' onClick={(e) => handleSmoothScroll(e, 'home')}>
+                        <Link to="home" smooth={true} duration={500} onClick={closeMenu}>
                             Home
-                        </a>
+                        </Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#about' onClick={(e) => handleSmoothScroll(e, 'about')}>
+                        <Link to="about" smooth={true} duration={500} onClick={closeMenu}>
                             About
-                        </a>
+                        </Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#sponsors' onClick={(e) => handleSmoothScroll(e, 'sponsors')}>
+                        <Link to="sponsors" smooth={true} duration={500} onClick={closeMenu}>
                             Sponsors
-                        </a>
+                        </Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#faq' onClick={(e) => handleSmoothScroll(e, 'faq')}>
+                        <Link to="faq" smooth={true} duration={500} onClick={closeMenu}>
                             FAQ
-                        </a>
+                        </Link>
                     </li>
                     <li className='nav-item'>
-                        <a
-                            href='#testimonials'
-                            onClick={(e) => handleSmoothScroll(e, 'testimonials')}
-                        >
+                        <Link to="testimonials" smooth={true} duration={500} onClick={closeMenu}>
                             Testimonials
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='https://wicsfiu.github.io/witcon/' className='witcon23-button' onClick={closeMenu} target="_blank" rel="noopener noreferrer">
+                            WITCON 23'
                         </a>
                     </li>
                 </ul>

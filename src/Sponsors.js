@@ -1,28 +1,18 @@
 import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
 import './Sponsors.css';
+import flyerImage from './images/flyer.jpg';
+
+const items = [
+    { id: 1, title: 'flyer', image: flyerImage, link: 'https://github.com/wicsfiu' },
+    { id: 2, title: 'flyer', image: flyerImage, link: 'https://github.com/wicsfiu' },
+    // Add more items with images and links
+];
 
 const Sponsors = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        adaptiveHeight: true,
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                },
-            },
-        ],
-    };
-
     return (
         <div className='sponsors' id='sponsors'>
             <div className='container'>
@@ -30,20 +20,32 @@ const Sponsors = () => {
                     <h2>Meet our</h2>
                     <h1>SPONSORS</h1>
                     <div className="carousel-container">
-                        <Slider {...settings}>
-                            <div>
-                                <img src="company1_logo.png" alt="Company 1" />
-                                <img src="company2_logo.png" alt="Company 2" />
-                                <img src="company3_logo.png" alt="Company 3" />
-                                <img src="company4_logo.png" alt="Company 4" />
-                            </div>
-                            <div>
-                                <img src="company5_logo.png" alt="Company 5" />
-                                <img src="company6_logo.png" alt="Company 6" />
-                                <img src="company7_logo.png" alt="Company 7" />
-                                <img src="company8_logo.png" alt="Company 8" />
-                            </div>
-                        </Slider>
+                        <Swiper
+                            effect={'coverflow'}
+                            grabCursor={true}
+                            centeredSlides={true}
+                            slidesPerView={'auto'}
+                            coverflowEffect={{
+                                rotate: 30, // Adjust the rotate value
+                                stretch: 10, // Adjust the stretch value
+                                depth: 60, // Adjust the depth value
+                                modifier: 2, // Adjust the modifier value
+                                slideShadows: false, // Disable slide shadows
+                            }}
+                            pagination={true}
+                            className="mySwiper"
+                        >
+                            {items.map(item => (
+                                <SwiperSlide key={item.id}>
+                                    <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                        <img src={item.image} alt={`item ${item.id}`} />
+                                        <div className="image-overlay">
+                                            <p>{item.title}</p>
+                                        </div>
+                                    </a>
+                                </SwiperSlide>
+                            ))}
+                        </Swiper>
                     </div>
                 </div>
             </div>
