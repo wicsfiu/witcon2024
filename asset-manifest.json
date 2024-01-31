@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/witcon2024/static/css/main.4ef8b517.css",
-    "main.js": "/witcon2024/static/js/main.8d49882f.js",
+    "main.css": "/witcon2024/static/css/main.7ba3e82a.css",
+    "main.js": "/witcon2024/static/js/main.707f7112.js",
     "static/media/flyer.jpg": "/witcon2024/static/media/flyer.6101f866306fbfe67205.jpg",
     "static/media/banner.png": "/witcon2024/static/media/banner.32047e7bf70850bae5fe.png",
+    "static/media/capitalone.png": "/witcon2024/static/media/capitalone.dff5d47a138c9f7b10a3.png",
+    "static/media/knight.png": "/witcon2024/static/media/knight.4d001ad3cec8348a9055.png",
     "static/media/wit.png": "/witcon2024/static/media/wit.83348d38d2ad0f54c7f1.png",
+    "static/media/akamai.png": "/witcon2024/static/media/akamai.a8b1f609b2cc1541769a.png",
+    "static/media/bny.png": "/witcon2024/static/media/bny.72c4f787fe5e53f47223.png",
+    "static/media/ukg.png": "/witcon2024/static/media/ukg.2d91a4dedbf536e627a3.png",
+    "static/media/dell.png": "/witcon2024/static/media/dell.1f16dde79f11816ce2dd.png",
+    "static/media/deloitte.png": "/witcon2024/static/media/deloitte.d7373b73b12af197445e.png",
     "static/media/TheBold.ttf": "/witcon2024/static/media/TheBold.702ffedb8c929d86dc69.ttf",
+    "static/media/dell2.png": "/witcon2024/static/media/dell2.ef34a6c4fe0c4d84a2c3.png",
     "static/media/Pointless.ttf": "/witcon2024/static/media/Pointless.786b05552d499cf8b912.ttf",
     "index.html": "/witcon2024/index.html",
-    "main.4ef8b517.css.map": "/witcon2024/static/css/main.4ef8b517.css.map",
-    "main.8d49882f.js.map": "/witcon2024/static/js/main.8d49882f.js.map"
+    "main.7ba3e82a.css.map": "/witcon2024/static/css/main.7ba3e82a.css.map",
+    "main.707f7112.js.map": "/witcon2024/static/js/main.707f7112.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ef8b517.css",
-    "static/js/main.8d49882f.js"
+    "static/css/main.7ba3e82a.css",
+    "static/js/main.707f7112.js"
   ]
 }
