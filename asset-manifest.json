@@ -1,26 +1,38 @@
 {
   "files": {
-    "main.css": "/witcon2024/static/css/main.7ba3e82a.css",
-    "main.js": "/witcon2024/static/js/main.707f7112.js",
+    "main.css": "/witcon2024/static/css/main.8f59dbce.css",
+    "main.js": "/witcon2024/static/js/main.fd6b3311.js",
+    "static/media/2.png": "/witcon2024/static/media/2.41345541963687d9906f.png",
+    "static/media/4.png": "/witcon2024/static/media/4.21069bccde6d5f707cef.png",
+    "static/media/6.png": "/witcon2024/static/media/6.6ab1978eb11633fce546.png",
+    "static/media/7.png": "/witcon2024/static/media/7.bb7839b2558af817598e.png",
+    "static/media/5.png": "/witcon2024/static/media/5.416036702742434beeae.png",
+    "static/media/3.png": "/witcon2024/static/media/3.1a35226c7636ed527693.png",
     "static/media/flyer.jpg": "/witcon2024/static/media/flyer.6101f866306fbfe67205.jpg",
-    "static/media/banner.png": "/witcon2024/static/media/banner.32047e7bf70850bae5fe.png",
-    "static/media/capitalone.png": "/witcon2024/static/media/capitalone.dff5d47a138c9f7b10a3.png",
-    "static/media/knight.png": "/witcon2024/static/media/knight.4d001ad3cec8348a9055.png",
+    "static/media/background.jpg": "/witcon2024/static/media/background.684d18534f3c3ea85797.jpg",
+    "static/media/banner.jpg": "/witcon2024/static/media/banner.dfbcba69dc9daf16235d.jpg",
+    "static/media/witty2.png": "/witcon2024/static/media/witty2.6cc31b11254775d2bd3f.png",
+    "static/media/witty1.png": "/witcon2024/static/media/witty1.99237e6e02332f3f6d88.png",
+    "static/media/witty3.png": "/witcon2024/static/media/witty3.4ec0a2c5a05ff256326d.png",
     "static/media/wit.png": "/witcon2024/static/media/wit.83348d38d2ad0f54c7f1.png",
-    "static/media/akamai.png": "/witcon2024/static/media/akamai.a8b1f609b2cc1541769a.png",
-    "static/media/bny.png": "/witcon2024/static/media/bny.72c4f787fe5e53f47223.png",
-    "static/media/ukg.png": "/witcon2024/static/media/ukg.2d91a4dedbf536e627a3.png",
-    "static/media/dell.png": "/witcon2024/static/media/dell.1f16dde79f11816ce2dd.png",
-    "static/media/deloitte.png": "/witcon2024/static/media/deloitte.d7373b73b12af197445e.png",
+    "static/media/capitalone.png": "/witcon2024/static/media/capitalone.e123fb19725b6202f163.png",
+    "static/media/ukg.png": "/witcon2024/static/media/ukg.29006191f568eb641ded.png",
+    "static/media/akamai.png": "/witcon2024/static/media/akamai.efe4f0f147855689e640.png",
+    "static/media/knight.png": "/witcon2024/static/media/knight.40172898a8e40e16fbd2.png",
+    "static/media/dell.png": "/witcon2024/static/media/dell.e15b656ad89bb1b1a1f9.png",
+    "static/media/hr.png": "/witcon2024/static/media/hr.b51916a5970a36b7b7fd.png",
+    "static/media/bny.png": "/witcon2024/static/media/bny.13d3127a8d8c99795bef.png",
+    "static/media/btt.png": "/witcon2024/static/media/btt.d0d9a629f9192a136879.png",
     "static/media/TheBold.ttf": "/witcon2024/static/media/TheBold.702ffedb8c929d86dc69.ttf",
-    "static/media/dell2.png": "/witcon2024/static/media/dell2.ef34a6c4fe0c4d84a2c3.png",
+    "static/media/deloitte.png": "/witcon2024/static/media/deloitte.4ec7b74e42e9d6c39a52.png",
+    "static/media/netflix.png": "/witcon2024/static/media/netflix.a05e7005eb4407d54197.png",
     "static/media/Pointless.ttf": "/witcon2024/static/media/Pointless.786b05552d499cf8b912.ttf",
     "index.html": "/witcon2024/index.html",
-    "main.7ba3e82a.css.map": "/witcon2024/static/css/main.7ba3e82a.css.map",
-    "main.707f7112.js.map": "/witcon2024/static/js/main.707f7112.js.map"
+    "main.8f59dbce.css.map": "/witcon2024/static/css/main.8f59dbce.css.map",
+    "main.fd6b3311.js.map": "/witcon2024/static/js/main.fd6b3311.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ba3e82a.css",
-    "static/js/main.707f7112.js"
+    "static/css/main.8f59dbce.css",
+    "static/js/main.fd6b3311.js"
   ]
 }
