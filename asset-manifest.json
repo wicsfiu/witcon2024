@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/witcon2024/static/css/main.7dc9802f.css",
-    "main.js": "/witcon2024/static/js/main.b84698ab.js",
+    "main.js": "/witcon2024/static/js/main.bee75da8.js",
     "static/media/6.png": "/witcon2024/static/media/6.6ab1978eb11633fce546.png",
     "static/media/5.png": "/witcon2024/static/media/5.416036702742434beeae.png",
     "static/media/2.png": "/witcon2024/static/media/2.858dc86dc0b536f501b5.png",
@@ -20,10 +20,10 @@
     "static/media/Pointless.ttf": "/witcon2024/static/media/Pointless.786b05552d499cf8b912.ttf",
     "index.html": "/witcon2024/index.html",
     "main.7dc9802f.css.map": "/witcon2024/static/css/main.7dc9802f.css.map",
-    "main.b84698ab.js.map": "/witcon2024/static/js/main.b84698ab.js.map"
+    "main.bee75da8.js.map": "/witcon2024/static/js/main.bee75da8.js.map"
   },
   "entrypoints": [
     "static/css/main.7dc9802f.css",
-    "static/js/main.b84698ab.js"
+    "static/js/main.bee75da8.js"
   ]
 }
