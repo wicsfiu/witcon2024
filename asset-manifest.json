@@ -1,30 +1,32 @@
 {
   "files": {
-    "main.css": "/witcon2024/static/css/main.521869c8.css",
-    "main.js": "/witcon2024/static/js/main.b61aa02b.js",
-    "static/media/6.png": "/witcon2024/static/media/6.6ab1978eb11633fce546.png",
-    "static/media/5.png": "/witcon2024/static/media/5.416036702742434beeae.png",
-    "static/media/2.png": "/witcon2024/static/media/2.f1967cc4b95dc46b25e5.png",
-    "static/media/7.png": "/witcon2024/static/media/7.2c22fe52e2ea1ae0edf4.png",
-    "static/media/3.png": "/witcon2024/static/media/3.96f2c56b4708b6dcd660.png",
-    "static/media/4.png": "/witcon2024/static/media/4.8139660a74903558cc3d.png",
-    "static/media/flyer.jpg": "/witcon2024/static/media/flyer.6c61516265027a1f620e.jpg",
+    "main.css": "/witcon2024/static/css/main.176c921e.css",
+    "main.js": "/witcon2024/static/js/main.c372d438.js",
+    "static/media/6.png": "/witcon2024/static/media/6.4a2bc97095c7b3baf102.png",
     "static/media/Itinerary.png": "/witcon2024/static/media/Itinerary.3bb678dd713de7d03897.png",
-    "static/media/spons.png": "/witcon2024/static/media/spons.5bc2e3c6f903dc7ffada.png",
+    "static/media/5.png": "/witcon2024/static/media/5.3cb7dd43fc13afe11f1f.png",
+    "static/media/7.png": "/witcon2024/static/media/7.e058c8604b2d50bae445.png",
+    "static/media/2.png": "/witcon2024/static/media/2.ef42a6b44ed5f9fbe76a.png",
+    "static/media/4.png": "/witcon2024/static/media/4.2a29ddfff8516263a338.png",
+    "static/media/3.png": "/witcon2024/static/media/3.5a0ed1e5945345a3857f.png",
+    "static/media/flyer.jpg": "/witcon2024/static/media/flyer.166fa6466887e5d4effb.jpg",
     "static/media/background.jpg": "/witcon2024/static/media/background.6aeb9c6707022fc5fc44.jpg",
     "static/media/witty2.png": "/witcon2024/static/media/witty2.6cc31b11254775d2bd3f.png",
     "static/media/witty1.png": "/witcon2024/static/media/witty1.99237e6e02332f3f6d88.png",
     "static/media/witty3.png": "/witcon2024/static/media/witty3.4ec0a2c5a05ff256326d.png",
-    "static/media/banner.jpg": "/witcon2024/static/media/banner.fa52f964557b3a452a69.jpg",
+    "static/media/spons.png": "/witcon2024/static/media/spons.aed35ee933f443e4f38a.png",
     "static/media/wit.png": "/witcon2024/static/media/wit.83348d38d2ad0f54c7f1.png",
+    "static/media/article2.png": "/witcon2024/static/media/article2.6900c5f0ec7af23bd322.png",
+    "static/media/article.jpeg": "/witcon2024/static/media/article.6e2f72f320ffdeb21c8f.jpeg",
+    "static/media/banner.jpg": "/witcon2024/static/media/banner.596f33056e2cad37d490.jpg",
     "static/media/TheBold.ttf": "/witcon2024/static/media/TheBold.702ffedb8c929d86dc69.ttf",
     "static/media/Pointless.ttf": "/witcon2024/static/media/Pointless.786b05552d499cf8b912.ttf",
     "index.html": "/witcon2024/index.html",
-    "main.521869c8.css.map": "/witcon2024/static/css/main.521869c8.css.map",
-    "main.b61aa02b.js.map": "/witcon2024/static/js/main.b61aa02b.js.map"
+    "main.176c921e.css.map": "/witcon2024/static/css/main.176c921e.css.map",
+    "main.c372d438.js.map": "/witcon2024/static/js/main.c372d438.js.map"
   },
   "entrypoints": [
-    "static/css/main.521869c8.css",
-    "static/js/main.b61aa02b.js"
+    "static/css/main.176c921e.css",
+    "static/js/main.c372d438.js"
   ]
 }
