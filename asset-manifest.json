@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/witcon2024/static/css/main.176c921e.css",
-    "main.js": "/witcon2024/static/js/main.c372d438.js",
+    "main.css": "/witcon2024/static/css/main.e2704f98.css",
+    "main.js": "/witcon2024/static/js/main.fe58cfa9.js",
     "static/media/6.png": "/witcon2024/static/media/6.4a2bc97095c7b3baf102.png",
     "static/media/Itinerary.png": "/witcon2024/static/media/Itinerary.3bb678dd713de7d03897.png",
     "static/media/5.png": "/witcon2024/static/media/5.3cb7dd43fc13afe11f1f.png",
@@ -22,11 +22,11 @@
     "static/media/TheBold.ttf": "/witcon2024/static/media/TheBold.702ffedb8c929d86dc69.ttf",
     "static/media/Pointless.ttf": "/witcon2024/static/media/Pointless.786b05552d499cf8b912.ttf",
     "index.html": "/witcon2024/index.html",
-    "main.176c921e.css.map": "/witcon2024/static/css/main.176c921e.css.map",
-    "main.c372d438.js.map": "/witcon2024/static/js/main.c372d438.js.map"
+    "main.e2704f98.css.map": "/witcon2024/static/css/main.e2704f98.css.map",
+    "main.fe58cfa9.js.map": "/witcon2024/static/js/main.fe58cfa9.js.map"
   },
   "entrypoints": [
-    "static/css/main.176c921e.css",
-    "static/js/main.c372d438.js"
+    "static/css/main.e2704f98.css",
+    "static/js/main.fe58cfa9.js"
   ]
 }
