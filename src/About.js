@@ -1,8 +1,14 @@
 import React from 'react';
 import './About.css';
 import { motion } from 'framer-motion';
-import square1 from "./images/square1.png";
-import square2 from "./images/square2.png";
+import square1 from "./images/2.png";
+import square2 from "./images/3.png";
+import square3 from "./images/4.png";
+import square4 from "./images/5.png";
+import square5 from "./images/6.png";
+import square6 from "./images/7.png";
+import article from "./images/article.jpeg";
+import article2 from "./images/article2.png";
 
 const About = () => {
     const imageVariants = {
@@ -20,15 +26,19 @@ const About = () => {
                     whileHover={{ scale: 1.05 }}
                     className='col-1'
                 >
-                    <h2>Why WITCON?</h2>
+    
+                    <h2>What is WiTCON?</h2>
                     <span className='line'></span>
-                    <p>
-                        Witcon will be held on March 9th, 2024, at FIU. Register now to stay up to date with event 
-                        details such as panels, workshops, and having your resume seen by our sponsors!
-                    </p>
+                    <div onClick={() => window.location.href="https://panthernow.com/2023/04/05/witcon-paves-the-way-for-women-in-technology/"}>
+                        <img src={article} alt='Logo' className='logo-above-button' />
+                    </div>
+                    <div onClick={() => window.location.href="https://www.cis.fiu.edu/the-women-in-tech-conference-witcon-at-florida-international-university-generates-overwhelming-enthusiasm-in-the-fiu-community/"}>
+                        <img src={article2} alt='Logo' className='logo-above-button2' />
+                    </div>
+                    <p>WiTCON 2024 is the signature Women in Technology Conference at Florida International University. Join us for a full-day of learning, networking, and empowerment of underrepresented talent in tech. The event is scheduled for March 9th, 2024, and will be held at the Graham Center Ballrooms at FIU Modesto Maidique Campus from 9AM - 7PM.</p>
                 </motion.div>
 
-                {/* Space for 6 images in 2 rows */}
+                {/* Space for 6 images in 3 rows on larger screens and 2 rows on smaller screens */}
                 <div className='image-container'>
                     <div className='image-row'>
                         <motion.div
@@ -37,7 +47,7 @@ const About = () => {
                             whileHover='hover'
                         >
                             <div className='overlay'>
-                                <p>Title 1</p>
+                                <p>Engaging Activitie</p>
                             </div>
                             <img src={square1} alt='square 1' />
                         </motion.div>
@@ -47,7 +57,7 @@ const About = () => {
                             whileHover='hover'
                         >
                             <div className='overlay'>
-                                <p>Title 2</p>
+                                <p>Signature Industry Panel</p>
                             </div>
                             <img src={square2} alt='square 2' />
                         </motion.div>
@@ -57,9 +67,9 @@ const About = () => {
                             whileHover='hover'
                         >
                             <div className='overlay'>
-                                <p>Title 3</p>
+                                <p>Industry Workshops</p>
                             </div>
-                            <img src={square1} alt='square 3' />
+                            <img src={square3} alt='square 3' />
                         </motion.div>
                     </div>
                     <div className='image-row'>
@@ -69,9 +79,9 @@ const About = () => {
                             whileHover='hover'
                         >
                             <div className='overlay'>
-                                <p>Title 4</p>
+                                <p>Industry Fair</p>
                             </div>
-                            <img src={square2} alt='square 4' />
+                            <img src={square4} alt='square 4' />
                         </motion.div>
                         <motion.div
                             className='square'
@@ -79,9 +89,9 @@ const About = () => {
                             whileHover='hover'
                         >
                             <div className='overlay'>
-                                <p>Title 5</p>
+                                <p>Fun!</p>
                             </div>
-                            <img src={square1} alt='square 5' />
+                            <img src={square5} alt='square 5' />
                         </motion.div>
                         <motion.div
                             className='square'
@@ -89,9 +99,9 @@ const About = () => {
                             whileHover='hover'
                         >
                             <div className='overlay'>
-                                <p>Title 6</p>
+                                <p>Networking Hours</p>
                             </div>
-                            <img src={square2} alt='square 6' />
+                            <img src={square6} alt='square 6' />
                         </motion.div>
                     </div>
                 </div>
@@ -101,7 +111,4 @@ const About = () => {
 };
 
 export default About;
-
-
-
 

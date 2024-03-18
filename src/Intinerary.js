@@ -1,11 +1,11 @@
-// Sponsors.js
+// Itinerary.js
 import React, { useEffect } from 'react';
-import './Sponsors.css';
+import './Itinerary.css';
 import { motion } from 'framer-motion';
 import { useMediaQuery } from 'react-responsive';
-import spons from "./images/spons.png"; 
+import inti from "./images/Itinerary.png"; 
 
-const Sponsors = () => {
+const Itinerary = () => {
     const isMobile = useMediaQuery({ maxWidth: 767 });
 
     const imageVariants = {
@@ -25,7 +25,7 @@ const Sponsors = () => {
     }, []);
 
     return (
-        <div className={`sponsors`} id='sponsors'>
+        <div className={`Itinerary`} id='Itinerary'>
             <div className='container'>
                 {/* Motion Div */}
                 <motion.div
@@ -36,12 +36,15 @@ const Sponsors = () => {
                     whileHover={{ scale: isMobile ? 1 : 1.05 }}
                     className='col-1'
                 >
-                    <h2>SPONSORS</h2>
+                    <h2>Itinerary</h2>
                     <span className='line'></span>
-    
                     {/* Add the large image here */}
-                    <div className='spons-image'>
-                        <img src={spons} alt='spons'/>
+                    <div className='Itinerary-image'>
+                        <img src={inti} alt='Itinerary'/>
+                    {/* Pink center button */}
+                    <a href="/detail-page" className="pink-button">
+                            See Detail Itinerary
+                        </a>
                     </div>
                 </motion.div>
             </div>
@@ -49,5 +52,6 @@ const Sponsors = () => {
     );
 };
 
-export default Sponsors;
+export default Itinerary;
+
 

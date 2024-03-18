@@ -3,6 +3,7 @@ import './Footer.css';
 import discord from './images/Discord.png';
 import instagram from './images/Instagram.png';
 import github from './images/GitHub.png';
+import linkedin from './images/linkedin.png';
 import { FaArrowUp } from 'react-icons/fa';
 
 const Footer = () => {
@@ -45,6 +46,9 @@ const Footer = () => {
                 <a href='https://github.com/wicsfiu' className='social-link'>
                     <img src={github} alt='GitHub' />
                 </a>
+                <a href='https://github.com/wicsfiu' className='social-link'>
+                    <img src={linkedin} alt='LinkedIn' />
+                </a>
             </div>
 
             <div className='container'>
@@ -59,8 +63,11 @@ const Footer = () => {
                         <a href='#sponsors'>Sponsors</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#faq'>FAQ</a>
+                        <a href='#Itinerary'>Itinerary</a>
                     </li>
+                    <li className='nav-item'>
+                        <a href='#faq'>FAQ</a>
+                    </li>ç
                     <li className='nav-item'>
                         <a href='#testimonials'>Testimonials</a>
                     </li>
@@ -72,9 +79,13 @@ const Footer = () => {
                         <FaArrowUp />
                     </button>
                 )}
+                <br></br>
                 <div className='bottom'>
                     <p className='email'>wics@fiu.edu</p>
-                    <p className= 'author'>WITCON @ FIU 2024 |  made by Women in Tech</p>
+                    <p className= 'author'>WiTCON 2024 | made with love by{' '}
+          <a href="https://linktr.ee/wicsfiu" target="_blank" rel="noopener noreferrer">
+            Women in Computer Science FIU
+          </a></p>
                 </div>
             </div>
         </div>

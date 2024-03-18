@@ -41,7 +41,12 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to="faq" smooth={true} duration={500} onClick={closeMenu}>
+                        <Link to="Itinerary" smooth={true} duration={500} onClick={closeMenu}>
+                            Itinerary
+                        </Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link to="wrapper" smooth={true} duration={500} onClick={closeMenu}>
                             FAQ
                         </Link>
                     </li>

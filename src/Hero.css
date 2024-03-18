@@ -1,25 +1,37 @@
-@keyframes gradientAnimation {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+/* General styles */
+body {
+    font-size: 16px;
 }
 
-
+/* Base styling */
 .hero {
     color: #1C0028;
     height: 100vh;
-    width: 100%;
+    min-width: 100%; /* Set a minimum width for small screens */
     position: relative;
-    background: linear-gradient(45deg, #FF0CAC, #FDE1EF, #FF0CAC); /* Add your desired gradient colors */
-    background-size: 200%;
-    animation: gradientAnimation 8s linear infinite; /* Adjust the animation duration as needed */
+    background-image: url('./images/background.jpg'); /* Update the background image URL */
+    background-size: cover; /* or your preferred background size */
     display: flex;
+}
+
+.hero h2 {
+    font-size: 2em; /* Adjust font size for smaller screens */
+    font-family: 'TheBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
+    color: #1C0028;
+    padding-top: 2%;
+    padding-bottom: 1%;
+
+}
+
+.hero h3{
+    font-size: 1.3em; /* Adjust font size for smaller screens */
+    font-family: 'TheBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    padding: 3%;
+    line-height: 1.5em;
+    color: #1C0028;
 }
 
 .hero .content {
@@ -27,55 +39,55 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 50%;
-    padding: 6rem;
+    max-width: 60%; /* Adjust the max-width for wider text */
+    padding: 4rem; /* Adjust padding for responsiveness */
 }
 
 .hero .content p:first-child {
-    font-size: 35px;
+    font-size: 40px; /* Adjust font size for smaller screens */
     font-family: 'TheBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bolder;
-
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 .hero .content p:nth-child(2) {
-    font-size: 60px;
-    font-weight: 800;
+    font-size: 3em;
     font-family: 'Pointless', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 .hero .content p:nth-child(3) {
-    font-size: 30px;
+    font-size: 40px; /* Adjust font size for smaller screens */
+    padding-top: 1%;
     font-family: 'TheBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bolder;
-    padding-top: 3%
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 .hero .button {
-    margin: 1rem 0;
-    width: 300px;
     border-radius: 40px;
-    background: #FDE1EF;
+    background: #FF70BF;
     color: #1C0028;
+    margin-top: 4%;
+    padding: 3%;
+    margin-bottom: 5%;
+    margin: 0.8rem; /* Adjust the margin value as needed */
+    font-size: 0.8em;
+    font-family: 'Pointless', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 .hero .button:hover {
-    background-color: #1C0028;
+    background: #f7cee4;
     border: 1px solid var(--secondary-dark);
-    color:#FDE1EF;
+    color: #333;
 }
 
 .hero .image {
-    max-width: 40%;
-    margin-left: auto;
-    margin-right: 40px;
+    max-width: 30%; /* Adjust the max-width for larger screens */
+    margin-right: 5%; /* Add more margin to the right */
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    padding: 70px;
+    padding: 2rem; /* Adjust padding for responsiveness */
+    position: relative;
 }
 
 .hero .image img {
@@ -88,28 +100,69 @@
     margin: 1rem;
     width: 100px;
     border-radius: 40px;
-    background: #FDE1EF;
-    color: #333;
+    background: #FF008C;
+    color: #1C0028;
 }
 
-.hero .image .schedule-button:hover {
-    background-color: #1C0028;
-    border: 1px solid var(#1C0028);
-}
 
-@media screen and (max-width: 940px) {
+@media only screen and (max-width: 798px) {
+    .hero {
+        display: block;
+        height: auto;
+        margin-top: 15%;
+        background-image: url('./images/background.jpg');
+        background-size: fill;
+    }
+
+    .hero h2 {
+        font-size: 1.2em;
+        min-width: 100%;
+        padding-top: 2%;
+        padding-bottom: 1%;
+    
+    }
+
+    .hero h3 {
+        font-size: medium;
+        align-items: center;
+        padding: 3%;
+        min-width: 100%;
+        margin-top: 5%;
+        justify-content: center;
+
+    }
+
+
+    .hero .content {
+        min-width: 100%;        
+    }
+
+    .hero .content p:first-child,
     .hero .content p:nth-child(3) {
-        font-size: 2.6rem;
+        font-size: 1em;
     }
 
-    .hero .content p:nth-child(4) {
-        font-size: 10px;
+    .hero .content p:nth-child(2) {
+        font-size: 1.8em;
     }
+
+    .hero .button {
+        margin-top: 4%;
+        margin-bottom: 5%;
+        padding: 4%;
+        font-size: 0.6em;
+    }
+
+    .hero .image {
+          max-width: 70%;
+          padding: 2rem 0;
+          padding-bottom: 40%;
+          padding-top: 0%;
+          display: flex;
+          align-items: center; /* Center the image vertically */
+          /* Ensure container is centered: */
+          text-align: center;
+          margin: 0 auto; /* Center the image horizontally within available space */
+        }
+    
 }
-
-
-
-
-
-
-
