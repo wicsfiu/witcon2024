@@ -29,14 +29,18 @@ const About = () => {
     
                     <h2>What is WiTCON?</h2>
                     <span className='line'></span>
+                   
+                    <p>WiTCON 2024 is the signature Women in Technology Conference at Florida International University. Join us for a full-day of learning, networking, and empowerment of underrepresented talent in tech. The event is scheduled for March 9th, 2024, and will be held at the Graham Center Ballrooms at FIU Modesto Maidique Campus from 9AM - 7PM.</p>
+                    <div>
+                    </div>
                     <div onClick={() => window.location.href="https://panthernow.com/2023/04/05/witcon-paves-the-way-for-women-in-technology/"}>
                         <img src={article} alt='Logo' className='logo-above-button' />
                     </div>
+    
                     <div onClick={() => window.location.href="https://www.cis.fiu.edu/the-women-in-tech-conference-witcon-at-florida-international-university-generates-overwhelming-enthusiasm-in-the-fiu-community/"}>
                         <img src={article2} alt='Logo' className='logo-above-button2' />
                     </div>
-                    <p>WiTCON 2024 is the signature Women in Technology Conference at Florida International University. Join us for a full-day of learning, networking, and empowerment of underrepresented talent in tech. The event is scheduled for March 9th, 2024, and will be held at the Graham Center Ballrooms at FIU Modesto Maidique Campus from 9AM - 7PM.</p>
-                </motion.div>
+                     </motion.div>
 
                 {/* Space for 6 images in 3 rows on larger screens and 2 rows on smaller screens */}
                 <div className='image-container'>
@@ -47,7 +51,7 @@ const About = () => {
                             whileHover='hover'
                         >
                             <div className='overlay'>
-                                <p>Engaging Activitie</p>
+                                <p>Engaging Activities</p>
                             </div>
                             <img src={square1} alt='square 1' />
                         </motion.div>

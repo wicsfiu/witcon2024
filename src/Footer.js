@@ -46,7 +46,7 @@ const Footer = () => {
                 <a href='https://github.com/wicsfiu' className='social-link'>
                     <img src={github} alt='GitHub' />
                 </a>
-                <a href='https://github.com/wicsfiu' className='social-link'>
+                <a href='https://www.linkedin.com/company/wicsatfiu' className='social-link'>
                     <img src={linkedin} alt='LinkedIn' />
                 </a>
             </div>
@@ -63,11 +63,8 @@ const Footer = () => {
                         <a href='#sponsors'>Sponsors</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#Itinerary'>Itinerary</a>
-                    </li>
-                    <li className='nav-item'>
                         <a href='#faq'>FAQ</a>
-                    </li>ç
+                        </li>
                     <li className='nav-item'>
                         <a href='#testimonials'>Testimonials</a>
                     </li>

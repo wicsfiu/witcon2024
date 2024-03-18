@@ -46,6 +46,11 @@ const Testimonials = () => {
                     <p>Check out more in our Social Medias!</p>
                 </div>
             </div>
+            <li className='nav-item'>
+                        <a href='https://wicsfiu.github.io/witcon/' className='button' target="_blank" rel="noopener noreferrer">
+                            Check out WiTCON 23' 
+                        </a>
+                    </li>
         </motion.div>
     );
 }

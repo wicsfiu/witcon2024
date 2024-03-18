@@ -4,6 +4,8 @@ import './Sponsors.css';
 import { motion } from 'framer-motion';
 import { useMediaQuery } from 'react-responsive';
 import spons from "./images/spons.png"; 
+import kf from "./images/kf.png"; 
+import spons2 from "./images/spons2.png";
 
 const Sponsors = () => {
     const isMobile = useMediaQuery({ maxWidth: 767 });
@@ -36,12 +38,18 @@ const Sponsors = () => {
                     whileHover={{ scale: isMobile ? 1 : 1.05 }}
                     className='col-1'
                 >
-                    <h2>SPONSORS</h2>
-                    <span className='line'></span>
-    
-                    {/* Add the large image here */}
+                    <h2>Powered By</h2>
                     <div className='spons-image'>
+                        <img src={kf} alt='kf'/>
+                    </div>
+                    <h2>SPONSORS</h2>
+                    <p>Interest in sponsoring WiTCON24? Email us at wics@fiu.edu</p>
+{/* Add the large image here */}
+<div className='spons-image'>
                         <img src={spons} alt='spons'/>
+                        <img src={spons2} alt='spons2'/>
+
+                        
                     </div>
                 </motion.div>
             </div>

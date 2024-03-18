@@ -5,7 +5,6 @@ import About from './About';
 import Divbar from './Divbar';
 import Sponsors from './Sponsors';
 import Testimonials from './Testimonials';
-import Intinerary from './Intinerary';
 import FAQ from './FAQ';
 import Footer from './Footer';
 
@@ -19,7 +18,6 @@ function App() {
       <About/>
       <Sponsors/>
       <Divbar/>
-      <Intinerary/>
       <FAQ/>
       <Testimonials/>
       <Footer/>

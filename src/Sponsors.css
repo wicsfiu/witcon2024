@@ -19,13 +19,14 @@ body {
 }
 
 .sponsors h2 {
-    font-size: 2rem;
+    font-size: 1.9rem;
     text-align: center;
     color: black;
     font-family: 'Pointless', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
    
 }
+
 
 .sponsors .col-1 {
     max-width: 100%;
@@ -41,14 +42,14 @@ body {
 }
 
 .sponsors p {
-    text-align: left;
-    font-family: 'Pointless', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    text-align: center;
+    font-family: 'TheBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.5em;
-    padding-top: 5%; /* Adjust the padding between paragraphs */
-    color: #43055D;
-    margin-left: 3%;
+    font-size: 1.4em;
+    padding-top: 3%; /* Adjust the padding between paragraphs */
+    color: balck;
 }
+
 
 /* Images styling with adjusted padding and centered position */
 .image-container {
@@ -109,6 +110,7 @@ body {
 
     .sponsors p {
         margin-left: 5%;
+        font-size: medium;
     }
 
     .image-row {
@@ -120,10 +122,10 @@ body {
     }
 
     .square img {
-        width: 70%; /* Adjust the width as needed */
+        width: 90%; /* Adjust the width as needed */
     }
 
     .spons-image img {
-        max-width: 100%;
+        max-width: 90%;
     }
 }

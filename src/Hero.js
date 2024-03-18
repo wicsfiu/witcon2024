@@ -30,8 +30,7 @@ const Hero = () => {
 
     const handleEventScheduleClick = (e) => {
         e.preventDefault();
-        // Change 'https://wicsfiu.github.io/witcon2024/' to the actual URL of your site
-        window.location.href = '#Itinerary';
+        window.location.href = 'https://drive.google.com/file/d/1H0Q1Etv0lPTQFz4cQ8bZJqF4nRW9_mDJ/view?usp=sharing';
     };
 
     const handleRegisterClick = (e) => {
@@ -39,13 +38,19 @@ const Hero = () => {
         window.location.href = 'https://lu.ma/witcon24fiu';
     };
 
+    const handleAttendeeClick = (e) => {
+        e.preventDefault();
+        window.location.href = 'https://zigzag-provelone-bf1.notion.site/WiTCON-2024-Attendee-Guide-aaa6242fbef0476d82cc7d2ced284cf5?pvs=4';
+    };
+
     const handleEventScheduleHover = () => {
-        setEventScheduleButtonText('Event Schedule');
+        setEventScheduleButtonText('View Schedule');
     };
 
     const handleEventScheduleLeave = () => {
-        setEventScheduleButtonText('Event Schedule');
+        setEventScheduleButtonText('Event Itinerary');
     };
+
 
     return (
         <div className={`hero ${isMobile ? 'mobile' : ''}`} id='home'>
@@ -63,6 +68,7 @@ const Hero = () => {
                         onClick={handleEventScheduleClick}
                         onMouseEnter={handleEventScheduleHover}
                         onMouseLeave={handleEventScheduleLeave}
+                        aria-label={eventScheduleButtonText}  // Add aria-label for accessibility
                     >
                         {eventScheduleButtonText}
                     </button>
@@ -73,6 +79,13 @@ const Hero = () => {
                         onClick={handleRegisterClick}
                     >
                         Register Today!
+                    </button>
+                    <button
+                        type="button"
+                        className='button'
+                        onClick={handleAttendeeClick}
+                    >
+                        ATTENDEE GUIDE
                     </button>
                     <h3>
                         March 9th, 2024 <br />
